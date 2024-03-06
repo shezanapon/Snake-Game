@@ -57,7 +57,7 @@ Window.Game = {};
         moveSnake();
     }
     function randomizeApple() {
-        let isGolden = Math.random() < 0.5; // 10% chance to be a golden apple
+        let isGolden = Math.random() < 0.1; // 10% chance to be a golden apple
         apple = {
             x: Math.floor(Math.random() * CANVAS_SIZE) * CELL_SIZE,
             y: Math.floor(Math.random() * CANVAS_SIZE) * CELL_SIZE,
